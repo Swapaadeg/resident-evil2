@@ -102,9 +102,13 @@ h2 {
     padding-bottom: 3rem;
 }
 
-.newsletter__wrapper {
+.newsletter {
     background-color: #292b2c;
     color: white;
+}
+
+.footer-bottom {
+    background-color: black;
 }
 
 .input {
@@ -120,21 +124,17 @@ h2 {
 }
 
 .navbar__wrapper {
-    background-color: black;
     display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
 }
 
 .navbar__wrapper img {
-    width: 20%;
-    height: 20%;
-}
-
-.under-menu {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
+    width: 100%
 }
 
 .menu-footer li a {
