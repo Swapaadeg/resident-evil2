@@ -3,6 +3,10 @@
     src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0 auto;
     font-family: "Roboto";
@@ -145,7 +149,7 @@ h2 {
     color: white;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:520px) {
     .container {
         width: auto;
     }
@@ -169,7 +173,8 @@ h2 {
 
     .banner {
         align-items: center;
-        height: auto;
+        height: 40vh;
+        background-position: left
     }
 
     .logo {
@@ -178,11 +183,5 @@ h2 {
     
     .main-menu :not(:last-child) {
         border-right: none;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .container {
-        padding: auto;
     }
 }
