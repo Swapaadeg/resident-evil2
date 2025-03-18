@@ -16,7 +16,7 @@ a {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.2rem;
 }
 
 .main-menu {
@@ -45,7 +45,6 @@ a {
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: bottom;
-    width: 100%;
     height: 40vh;
 }
 
@@ -53,9 +52,10 @@ a {
     width: 50%;
 }
 
-
 h1 {
     color: white;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .survivez__wrapper {
@@ -143,4 +143,46 @@ h2 {
 
 .menu-footer :not(:last-child) {
     color: white;
+}
+
+@media screen and (max-width:360px) {
+    .container {
+        width: auto;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .nouveautes {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .input {
+        flex-direction: column;
+    }
+
+    .banner {
+        align-items: center;
+        height: auto;
+    }
+
+    .logo {
+        width: 100%;
+    }
+    
+    .main-menu :not(:last-child) {
+        border-right: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        padding: auto;
+    }
 }
