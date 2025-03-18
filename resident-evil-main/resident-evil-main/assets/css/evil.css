@@ -84,7 +84,59 @@ h2 {
     width: 30%;
 }
 
+
+.nouveautes {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    height: 40vh;
+}
+
+.card {
+    background-color: #292b2c;
+    flex-direction: column;
+}
+
+.nouveautes img {
+    width: 100%;
+    height: 50%;
+}
+
 .newsletter__wrapper {
     background-color: #292b2c;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+.navbar__wrapper {
+    background-color: black;
+    display: flex;
+}
+
+.navbar__wrapper img {
+    width: 20%;
+    height: 20%;
+}
+.under-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+.under-menu :not(:last-child) {
+    display: flex;
+    border-right: solid 2px white;
+}
+
+.under-menu li a {
+    color: white;
+    margin-right: 1rem;
+}
+
